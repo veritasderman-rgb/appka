@@ -2,7 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [claude/add-battle-simulator-SctPR]
+    branches:
+      - claude/add-battle-simulator-SctPR
+      - claude/fix-dev-server-cache-3hcml
   workflow_dispatch:
 
 permissions:
